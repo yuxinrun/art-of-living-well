@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 680" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">行远</title>
+  <desc id="heroDesc">原创水墨插画：远山层叠，红日低悬，松树立于坡上，一人携书卷行于山道。</desc>
+  <defs>
+    <linearGradient id="heroSky" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#F3EEDF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F7F5EF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="heroFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8E897A" stop-opacity="0.46"/>
+      <stop offset="1" stop-color="#B6B1A2" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="heroMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6E6959" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#8E897A" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="heroNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4B4840" stop-opacity="0.60"/>
+      <stop offset="1" stop-color="#615D52" stop-opacity="0.12"/>
+    </linearGradient>
+    <filter id="heroBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="heroBlurSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <!-- 天际淡染 -->
+  <ellipse cx="400" cy="248" rx="326" ry="216" fill="url(#heroSky)"/>
+
+  <!-- 红日 -->
+  <circle cx="556" cy="168" r="62" fill="#A64B3C" opacity="0.18"/>
+  <circle cx="556" cy="168" r="62" fill="none" stroke="#A64B3C" stroke-opacity="0.14" stroke-width="1"/>
+
+  <!-- 远山 -->
+  <g filter="url(#heroBlur)">
+    <path d="M40 452C110 356 168 300 232 302c58 2 78 88 140 96 54 7 74-62 132-64 62-2 108 60 176 108v190H40Z" fill="url(#heroFar)"/>
+    <path d="M300 468c54-64 92-116 146-118 50-2 74 58 116 72 46 15 78-24 158 12v196H300Z" fill="url(#heroMid)" opacity="0.9"/>
+  </g>
+
+  <!-- 云雾 -->
+  <g filter="url(#heroBlurSoft)" fill="#F7F5EF">
+    <ellipse cx="238" cy="452" rx="132" ry="13" opacity="0.62"/>
+    <ellipse cx="470" cy="486" rx="150" ry="11" opacity="0.55"/>
+    <ellipse cx="166" cy="524" rx="104" ry="9" opacity="0.42"/>
+  </g>
+
+  <!-- 近山 -->
+  <path d="M0 566c86-52 148-96 218-98 58-2 82 36 130 40 66 6 96-38 158-40 76-3 148 44 254 92v120H0Z" fill="url(#heroNear)"/>
+  <path d="M0 596c92-38 152-64 224-64 62 0 88 26 138 30 62 5 104-28 168-30 72-2 140 26 230 62v86H0Z" fill="#3C3933" opacity="0.2"/>
+
+  <!-- 山道 -->
+  <path d="M286 660c26-62 62-92 104-124 34-26 56-52 66-92" fill="none" stroke="#F7F5EF" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+  <path d="M286 660c26-62 62-92 104-124 34-26 56-52 66-92" fill="none" stroke="#8E897A" stroke-width="1" stroke-dasharray="7 9" opacity="0.65"/>
+
+  <!-- 行人：携书卷上路 -->
+  <g transform="translate(398 486)" stroke="#33312B" stroke-width="2.1" fill="none" stroke-linecap="round">
+    <circle cx="0" cy="-30" r="6.4" fill="#33312B" stroke="none"/>
+    <path d="M0-23c-3 9-3 18 0 27l-2 15"/>
+    <path d="M0-16c-7 4-11 9-13 16"/>
+    <path d="M0-14c7 3 12 8 14 15"/>
+    <path d="M-2 19-8 36m10-17 8 17"/>
+    <path d="M15-6v44" stroke="#5D5849"/>
+    <rect x="-13" y="-2" width="7" height="16" fill="#A64B3C" stroke="none" opacity="0.85"/>
+  </g>
+
+  <!-- 松树：层层如云，水墨剪影 -->
+  <g fill="#3F3C34" opacity="0.6">
+    <path d="M150 422c9 12 19 26 25 40h-50c6-14 16-28 25-40Z"/>
+    <path d="M150 444c10 13 22 30 29 48h-58c7-18 19-35 29-48Z"/>
+    <path d="M150 470c11 14 24 34 32 54h-64c8-20 21-40 32-54Z"/>
+    <path d="M150 504c9 10 18 24 24 42h-48c6-18 15-32 24-42Z"/>
+  </g>
+  <path d="M146 544h8v32h-8Z" fill="#3F3C34" opacity="0.6"/>
+
+  <!-- 坡石 -->
+  <path d="M92 592c18-14 40-22 66-24 24-2 44 4 58 14-26 10-58 16-92 16-12 0-22-2-32-6Z" fill="#4B4840" opacity="0.32"/>
+  <path d="M560 606c22-12 46-16 70-12 16 3 28 9 36 18-30 8-66 10-96 2Z" fill="#4B4840" opacity="0.24"/>
+
+  <!-- 飞鸟 -->
+  <g stroke="#4B4840" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.6">
+    <path d="M604 268c5-5 9-5 13 0 4-5 8-5 12 0"/>
+    <path d="M640 300c4-4 7-4 10 0 4-4 7-4 10 0"/>
+  </g>
+
+  <!-- 题字与印 -->
+  <g fill="#3A3832" font-family="Songti SC, STSong, SimSun, serif">
+    <text x="106" y="152" font-size="40" letter-spacing="6">行</text>
+    <text x="106" y="204" font-size="40" letter-spacing="6">远</text>
+    <text x="104" y="250" font-size="14" letter-spacing="4" fill="#8B8578">山水有程</text>
+    <text x="104" y="274" font-size="14" letter-spacing="4" fill="#8B8578">行而不辍</text>
+  </g>
+  <g transform="translate(104 292)">
+    <rect width="30" height="30" fill="#A64B3C"/>
+    <text x="15" y="22" text-anchor="middle" font-size="16" fill="#F7F5EF" font-family="Songti SC, STSong, SimSun, serif">和</text>
+  </g>
+
+  <!-- 墨点 -->
+  <g fill="#4B4840" opacity="0.2">
+    <circle cx="206" cy="228" r="1.6"/>
+    <circle cx="226" cy="206" r="1"/>
+    <circle cx="248" cy="236" r="2.4"/>
+    <circle cx="676" cy="470" r="1.8"/>
+    <circle cx="58" cy="360" r="1.4"/>
+  </g>
+</svg>

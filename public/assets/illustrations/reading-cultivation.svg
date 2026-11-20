@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="readTitle">
+  <title id="readTitle">阅读与修养插画：窗下读书，远山在望</title>
+  <defs>
+    <linearGradient id="readWash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0EADA"/>
+      <stop offset="1" stop-color="#F7F5EF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="300" fill="url(#readWash)" opacity="0.8"/>
+
+  <!-- 窗与远山 -->
+  <g>
+    <rect x="248" y="42" width="132" height="104" fill="#FBF9F4" stroke="#4B4840" stroke-width="1.6"/>
+    <path d="M252 118c18-20 32-30 46-30s20 12 30 14 16-10 28-10 18 12 22 18v32h-126Z" fill="#8E897A" opacity="0.28"/>
+    <path d="M252 128c16-12 28-18 42-18 16 0 24 8 38 8 12 0 20-4 28-8v28h-108Z" fill="#4B4840" opacity="0.18"/>
+    <path d="M314 42v104M248 94h132" stroke="#4B4840" stroke-width="1.2"/>
+    <circle cx="356" cy="62" r="9" fill="#A64B3C" opacity="0.25"/>
+  </g>
+
+  <!-- 书桌 -->
+  <g stroke="#4B4840" stroke-width="1.8" fill="none">
+    <path d="M64 212h246v8H64z"/>
+    <path d="M80 220v42m212-42v42"/>
+    <path d="M74 236h226" stroke-width="1.2" opacity="0.6"/>
+  </g>
+
+  <!-- 摊开的书 -->
+  <g>
+    <path d="M108 202c26-10 50-10 72 0 22-10 46-10 72 0-24 10-48 10-72 2-24 8-48 8-72-2Z" fill="#FBF9F4" stroke="#4B4840" stroke-width="1.4"/>
+    <path d="M180 203v-2" stroke="#4B4840" stroke-width="1.4"/>
+    <g stroke="#B69A69" stroke-width="1" opacity="0.75">
+      <path d="M118 199h44M118 194h36M198 194h36M198 199h44"/>
+    </g>
+  </g>
+
+  <!-- 读书的人 -->
+  <g stroke="#33312B" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <circle cx="162" cy="126" r="14" fill="#33312B" stroke="none"/>
+    <path d="M162 140c-12 16-16 34-14 54"/>
+    <path d="M162 142c12 15 17 33 15 52"/>
+    <path d="M148 170c-10 8-14 18-14 30m42-30c10 7 15 17 16 28"/>
+  </g>
+
+  <!-- 灯与茶 -->
+  <g stroke="#4B4840" stroke-width="1.6" fill="none">
+    <path d="M296 212v-16h18v16"/>
+    <path d="M305 196c0-8 6-12 6-18"/>
+    <path d="M299 172h12l4 10h-20z" fill="#B69A69" fill-opacity="0.25"/>
+    <path d="M86 206h14v6H86z"/>
+    <path d="M100 208c6 0 6 5 0 5"/>
+  </g>
+  <path d="M92 200c-3-5 3-7 0-12m8 12c-3-5 3-7 0-12" stroke="#8E897A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+
+  <path d="M32 262h356" stroke="#D8D2C4" stroke-width="1"/>
+  <g fill="#4B4840" opacity="0.2">
+    <circle cx="342" cy="230" r="1.6"/>
+    <circle cx="66" cy="188" r="1.2"/>
+  </g>
+</svg>

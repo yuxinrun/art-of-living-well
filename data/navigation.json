@@ -1,0 +1,72 @@
+{
+  "brand": {
+    "name": "做人和为人处世",
+    "en": "The Art of Living Well",
+    "full": "做人和为人处世"
+  },
+  "main": [
+    { "label": "首页", "path": "/" },
+    { "label": "做人修养", "path": "/character/" },
+    { "label": "为人处世", "path": "/social-wisdom/" },
+    { "label": "沟通表达", "path": "/communication/" },
+    { "label": "人际关系", "path": "/relationships/" },
+    { "label": "职场智慧", "path": "/workplace/" },
+    { "label": "情绪与心态", "path": "/emotions/" },
+    { "label": "传统智慧", "path": "/chinese-wisdom/" },
+    { "label": "书籍金句", "path": "/books/" }
+  ],
+  "more": [
+    { "label": "识人交友", "path": "/understanding-people/", "note": "看人看事的分寸" },
+    { "label": "家庭关系", "path": "/family/", "note": "亲近之人的相处" },
+    { "label": "社交礼仪", "path": "/etiquette/", "note": "场合中的体面" },
+    { "label": "冲突与解决", "path": "/conflict-resolution/", "note": "把对抗变成问题" },
+    { "label": "现实场景库", "path": "/scenarios/", "note": "20 个棘手场面" },
+    { "label": "人生金句", "path": "/quotes/", "note": "可核验的短句" },
+    { "label": "我的书签", "path": "/library/", "note": "收藏与最近阅读" },
+    { "label": "关于本站", "path": "/about/", "note": "立场与方法" }
+  ],
+  "mobile": [
+    { "label": "首页", "path": "/" },
+    { "label": "做人修养", "path": "/character/" },
+    { "label": "为人处世", "path": "/social-wisdom/" },
+    { "label": "沟通表达", "path": "/communication/" },
+    { "label": "人际关系", "path": "/relationships/" },
+    { "label": "职场智慧", "path": "/workplace/" },
+    { "label": "情绪与心态", "path": "/emotions/" },
+    { "label": "识人交友", "path": "/understanding-people/" },
+    { "label": "家庭关系", "path": "/family/" },
+    { "label": "社交礼仪", "path": "/etiquette/" },
+    { "label": "冲突与解决", "path": "/conflict-resolution/" },
+    { "label": "传统智慧", "path": "/chinese-wisdom/" },
+    { "label": "现实场景库", "path": "/scenarios/" },
+    { "label": "人生金句", "path": "/quotes/" },
+    { "label": "经典书籍", "path": "/books/" },
+    { "label": "我的书签", "path": "/library/" },
+    { "label": "关于本站", "path": "/about/" }
+  ],
+  "footer": {
+    "columns": [
+      [
+        { "label": "做人修养", "path": "/character/" },
+        { "label": "为人处世", "path": "/social-wisdom/" },
+        { "label": "沟通表达", "path": "/communication/" },
+        { "label": "人际关系", "path": "/relationships/" },
+        { "label": "职场智慧", "path": "/workplace/" },
+        { "label": "情绪与心态", "path": "/emotions/" }
+      ],
+      [
+        { "label": "现实场景库", "path": "/scenarios/" },
+        { "label": "人生金句", "path": "/quotes/" },
+        { "label": "经典书籍", "path": "/books/" },
+        { "label": "传统处世智慧", "path": "/chinese-wisdom/" },
+        { "label": "我的书签", "path": "/library/" }
+      ],
+      [
+        { "label": "关于本站", "path": "/about/" },
+        { "label": "内容与引用规范", "path": "/about/#standards" },
+        { "label": "编辑与核验流程", "path": "/about/#method" },
+        { "label": "参与共建", "path": "/about/#contribute" }
+      ]
+    ]
+  }
+}

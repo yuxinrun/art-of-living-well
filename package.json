@@ -1,0 +1,25 @@
+{
+  "name": "art-of-living-well",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "做人和为人处世 — The Art of Living Well. 一个研究做人修养、为人处世、沟通表达与人生智慧的中文知识库。",
+  "keywords": [
+    "做人",
+    "为人处世",
+    "人际关系",
+    "沟通表达",
+    "传统文化",
+    "人生哲学"
+  ],
+  "license": "CC-BY-NC-4.0",
+  "scripts": {
+    "dev": "vite",
+    "generate": "node scripts/generate.js",
+    "build": "node scripts/generate.js && vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
+}

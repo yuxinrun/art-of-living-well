@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="workTitle">
+  <title id="workTitle">职场插画：一张案几、两盏灯与摊开的卷宗</title>
+  <defs>
+    <linearGradient id="workWash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFE8D8"/>
+      <stop offset="1" stop-color="#F7F5EF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="300" fill="url(#workWash)" opacity="0.7"/>
+  <circle cx="86" cy="66" r="26" fill="#A64B3C" opacity="0.12"/>
+
+  <!-- 远山 -->
+  <path d="M0 214c46-32 82-46 118-46 30 0 46 14 70 16 30 2 46-16 74-16 38 0 78 22 158 46v86H0Z" fill="#8E897A" opacity="0.14"/>
+
+  <!-- 案几 -->
+  <g stroke="#4B4840" stroke-width="1.8" fill="none" stroke-linecap="round">
+    <path d="M70 214h280"/>
+    <path d="M70 220h280"/>
+    <path d="M104 220v40m212-40v40"/>
+    <path d="M92 260h24m188 0h24"/>
+  </g>
+
+  <!-- 摊开的卷宗 -->
+  <g stroke="#33312B" stroke-width="1.4" fill="#FBF9F4" stroke-linejoin="round">
+    <path d="M196 214l-56-14v-42l56 14Z"/>
+    <path d="M196 214l56-14v-42l-56 14Z"/>
+    <path d="M196 158v56" opacity="0.5"/>
+  </g>
+  <g stroke="#A9A292" stroke-width="1.1" stroke-linecap="round">
+    <path d="M150 172l32 8M150 182l32 8M150 192l22 5"/>
+    <path d="M210 180l32-8M210 190l32-8M210 200l22-5"/>
+  </g>
+
+  <!-- 左灯 -->
+  <g stroke="#4B4840" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <path d="M126 214v-46"/>
+    <path d="M112 214h28"/>
+    <path d="M126 168c-11 0-17-7-17-16h34c0 9-6 16-17 16Z" fill="#F3EAD8"/>
+  </g>
+  <circle cx="126" cy="146" r="4.5" fill="#B69A69" opacity="0.85"/>
+  <circle cx="126" cy="146" r="11" fill="#B69A69" opacity="0.14"/>
+
+  <!-- 右灯 -->
+  <g stroke="#4B4840" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <path d="M300 214v-38"/>
+    <path d="M288 214h24"/>
+    <path d="M300 176c-9 0-14-6-14-13h28c0 7-5 13-14 13Z" fill="#F3EAD8"/>
+  </g>
+  <circle cx="300" cy="157" r="4" fill="#B69A69" opacity="0.85"/>
+
+  <!-- 书册与印 -->
+  <g stroke="#4B4840" stroke-width="1.4" fill="none">
+    <path d="M336 214v-14h26v14"/>
+    <path d="M336 200h26M342 206h14"/>
+  </g>
+  <rect x="60" y="196" width="16" height="16" rx="1" fill="#A64B3C" opacity="0.65"/>
+  <path d="M64 202h8M64 206h8" stroke="#FBF9F4" stroke-width="1"/>
+
+  <!-- 地面 -->
+  <path d="M40 268h340" stroke="#D8D2C4" stroke-width="1"/>
+  <g fill="#4B4840" opacity="0.2">
+    <circle cx="72" cy="246" r="1.4"/>
+    <circle cx="356" cy="242" r="1.6"/>
+    <circle cx="186" cy="278" r="1"/>
+  </g>
+</svg>

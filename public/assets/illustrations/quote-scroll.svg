@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="quoteTitle">
+  <title id="quoteTitle">金句插画：展开的卷轴与印章</title>
+  <defs>
+    <linearGradient id="quoteWash" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#F0EADA"/>
+      <stop offset="1" stop-color="#F7F5EF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="300" fill="url(#quoteWash)"/>
+
+  <!-- 卷轴 -->
+  <g>
+    <path d="M96 62h228v14H96Z" fill="#E7DFCD" stroke="#4B4840" stroke-width="1.5"/>
+    <path d="M96 232h228v14H96Z" fill="#E7DFCD" stroke="#4B4840" stroke-width="1.5"/>
+    <path d="M112 76h196v156H112Z" fill="#FBF9F4" stroke="#D8D2C4" stroke-width="1.2"/>
+    <path d="M96 62c-8 0-8 14 0 14m228-14c8 0 8 14 0 14M96 232c-8 0-8 14 0 14m228-14c8 0 8 14 0 14" fill="none" stroke="#4B4840" stroke-width="1.5"/>
+  </g>
+
+  <!-- 竖排文字示意 -->
+  <g stroke="#4B4840" stroke-width="1.6" stroke-linecap="round" opacity="0.55">
+    <path d="M156 100v104M172 100v78M188 108v96M204 100v66"/>
+    <path d="M240 100v96M256 108v88M272 100v70M288 116v62"/>
+  </g>
+
+  <!-- 朱印 -->
+  <g transform="translate(232 196)">
+    <rect width="34" height="34" fill="#A64B3C"/>
+    <text x="17" y="25" text-anchor="middle" font-size="18" fill="#F7F5EF" font-family="Songti SC, STSong, SimSun, serif">言</text>
+  </g>
+
+  <!-- 竹枝 -->
+  <g stroke="#4B4840" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.45">
+    <path d="M348 236c4-46 8-80 16-110"/>
+    <path d="M360 170c-14-4-24-10-32-20m32 34c12-6 20-14 24-26m-24 48c-12-2-20-8-26-16"/>
+  </g>
+
+  <g fill="#4B4840" opacity="0.2">
+    <circle cx="74" cy="120" r="1.6"/>
+    <circle cx="352" cy="70" r="1.2"/>
+    <circle cx="80" cy="248" r="1.4"/>
+  </g>
+</svg>

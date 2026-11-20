@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-labelledby="emptyTitle">
+  <title id="emptyTitle">空状态插画：江面一叶空舟</title>
+  <defs>
+    <linearGradient id="emptyWash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFE9DA"/>
+      <stop offset="1" stop-color="#F7F5EF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="240" fill="url(#emptyWash)" opacity="0.6"/>
+  <circle cx="272" cy="60" r="22" fill="#A64B3C" opacity="0.12"/>
+
+  <!-- 远山 -->
+  <path d="M0 138c40-30 70-44 100-44 26 0 40 14 62 16 26 2 40-16 66-16 34 0 66 20 132 44v102H0Z" fill="#8E897A" opacity="0.15"/>
+
+  <!-- 水面 -->
+  <g stroke="#8E897A" stroke-width="1" opacity="0.5" stroke-linecap="round">
+    <path d="M36 186h58M120 196h44M206 186h62M288 198h40M62 210h54M214 212h48"/>
+  </g>
+
+  <!-- 空舟 -->
+  <g stroke="#4B4840" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <path d="M132 168c14 12 44 18 72 0l-10 10c-18 10-36 10-52 0Z" fill="#FBF9F4"/>
+    <path d="M148 168l10-22h16l10 22"/>
+    <path d="M170 146v-16"/>
+  </g>
+
+  <!-- 岸与芦苇 -->
+  <g stroke="#4B4840" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.6">
+    <path d="M252 174c2-26 4-44 8-58m-8 34c-8-4-12-10-14-18m14 30c8-4 12-10 14-18"/>
+    <path d="M270 176c1-18 3-30 6-40m-6 22c-6-3-9-8-10-14m10 24c6-3 9-8 10-14"/>
+  </g>
+
+  <g fill="#4B4840" opacity="0.2">
+    <circle cx="70" cy="84" r="1.6"/>
+    <circle cx="304" cy="126" r="1.2"/>
+  </g>
+</svg>

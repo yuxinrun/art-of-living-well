@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420" role="img" aria-label="宣纸纤维纹理">
+  <g stroke="#93866B" stroke-width="0.6" stroke-linecap="round">
+    <path d="M24 42h46" opacity="0.16"/>
+    <path d="M118 26h30" opacity="0.12"/>
+    <path d="M206 58h64" opacity="0.1"/>
+    <path d="M312 34h40" opacity="0.14"/>
+    <path d="M48 106h22" opacity="0.1"/>
+    <path d="M150 128h58" opacity="0.13"/>
+    <path d="M268 112h34" opacity="0.1"/>
+    <path d="M356 142h28" opacity="0.12"/>
+    <path d="M20 188h36" opacity="0.12"/>
+    <path d="M104 204h26" opacity="0.1"/>
+    <path d="M196 182h48" opacity="0.14"/>
+    <path d="M300 208h52" opacity="0.1"/>
+    <path d="M62 268h42" opacity="0.12"/>
+    <path d="M164 292h30" opacity="0.1"/>
+    <path d="M250 274h44" opacity="0.13"/>
+    <path d="M344 300h32" opacity="0.1"/>
+    <path d="M30 356h54" opacity="0.12"/>
+    <path d="M136 372h26" opacity="0.1"/>
+    <path d="M226 348h38" opacity="0.13"/>
+    <path d="M330 380h46" opacity="0.1"/>
+    <path d="M74 62h12" opacity="0.18"/>
+    <path d="M242 76h10" opacity="0.16"/>
+    <path d="M92 232h14" opacity="0.16"/>
+    <path d="M282 236h12" opacity="0.14"/>
+    <path d="M58 312h10" opacity="0.16"/>
+    <path d="M186 336h12" opacity="0.14"/>
+  </g>
+  <g fill="#93866B">
+    <circle cx="66" cy="148" r="0.9" opacity="0.18"/>
+    <circle cx="168" cy="64" r="0.7" opacity="0.16"/>
+    <circle cx="322" cy="88" r="0.8" opacity="0.14"/>
+    <circle cx="236" cy="162" r="0.7" opacity="0.16"/>
+    <circle cx="118" cy="248" r="0.9" opacity="0.14"/>
+    <circle cx="356" cy="238" r="0.7" opacity="0.16"/>
+    <circle cx="44" cy="392" r="0.8" opacity="0.14"/>
+    <circle cx="292" cy="326" r="0.7" opacity="0.16"/>
+    <circle cx="152" cy="396" r="0.6" opacity="0.14"/>
+    <circle cx="386" cy="52" r="0.8" opacity="0.14"/>
+  </g>
+</svg>

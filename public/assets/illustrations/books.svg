@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="booksTitle">
+  <title id="booksTitle">经典书籍插画：书册、卷轴与笔</title>
+  <defs>
+    <linearGradient id="bookWash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0EADA"/>
+      <stop offset="1" stop-color="#F7F5EF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="300" fill="url(#bookWash)" opacity="0.75"/>
+  <circle cx="330" cy="70" r="28" fill="#A64B3C" opacity="0.12"/>
+
+  <!-- 书堆 -->
+  <g stroke="#4B4840" stroke-width="1.6">
+    <rect x="92" y="196" width="132" height="18" fill="#FBF9F4"/>
+    <rect x="104" y="178" width="112" height="18" fill="#EFE9DC"/>
+    <rect x="88" y="214" width="146" height="18" fill="#E7DFCD"/>
+    <path d="M104 178v18M216 178v18M92 196v18M224 196v18M88 214v18m146-18v18" stroke-width="1" opacity="0.7"/>
+    <g stroke="#B69A69" stroke-width="1" opacity="0.9">
+      <path d="M118 187h56M116 205h72M112 223h84"/>
+    </g>
+  </g>
+
+  <!-- 立着的书 -->
+  <g stroke="#4B4840" stroke-width="1.6">
+    <path d="M240 232V150h26v82Z" fill="#FBF9F4"/>
+    <path d="M266 232V138h24v94Z" fill="#EFE9DC"/>
+    <path d="M290 232V158h22v74Z" fill="#FBF9F4"/>
+    <path d="M240 158h26M266 146h24M290 166h22" stroke-width="1" opacity="0.6"/>
+    <path d="M252 176v40M278 168v48M301 184v32" stroke="#B69A69" stroke-width="1"/>
+  </g>
+
+  <!-- 卷轴 -->
+  <g stroke="#4B4840" stroke-width="1.6" fill="none">
+    <path d="M300 96h84v9h-84z" fill="#E7DFCD"/>
+    <path d="M308 105v22c0 4 4 4 4 8s-4 4-4 8" opacity="0.75"/>
+    <path d="M300 96c-5 0-5 9 0 9m84-9c5 0 5 9 0 9"/>
+  </g>
+  <g stroke="#B69A69" stroke-width="1" opacity="0.8">
+    <path d="M318 101h48M318 106h32"/>
+  </g>
+
+  <!-- 笔与砚 -->
+  <g stroke="#4B4840" stroke-width="1.4" fill="none">
+    <path d="M198 128l52-44 8 9-52 44-10 3Z" fill="#FBF9F4"/>
+    <path d="M250 84l8 9" stroke="#A64B3C"/>
+    <path d="M330 214h44l-4 18h-36z" fill="#E7DFCD"/>
+  </g>
+
+  <path d="M64 246h296" stroke="#D8D2C4" stroke-width="1"/>
+  <g fill="#4B4840" opacity="0.18">
+    <circle cx="86" cy="160" r="1.6"/>
+    <circle cx="366" cy="180" r="1.2"/>
+  </g>
+</svg>
