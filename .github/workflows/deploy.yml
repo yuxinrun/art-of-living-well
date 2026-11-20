@@ -40,6 +40,9 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          # 首次运行时若仓库尚未开启 Pages，自动启用（需要 pages: write 权限）
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
