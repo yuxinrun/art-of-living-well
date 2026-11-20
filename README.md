@@ -191,10 +191,10 @@ $env:BASE_PATH='/art-of-living-well/'; npm run build
 **绑定自定义域名（根路径部署）：**
 
 1. 在仓库 **Settings → Pages → Custom domain** 填入域名并保存（会生成 `CNAME` 文件）。
-2. 在 **Settings → Secrets and variables → Actions → Variables** 新建变量 `BASE_PATH`，值为 `/`。
+2. 在 **Settings → Secrets and variables → Actions → Variables** 新建变量 `BASE_PATH`，值为 `/`；再新建 `SITE_URL`，值为 `https://你的域名`（不带结尾斜杠）。
 3. 重新运行工作流。DNS 建议添加 `CNAME` 记录指向 `<用户名>.github.io`，并在 Pages 中勾选 **Enforce HTTPS**。
 
-如果使用自定义域名，请同步修改 `data/site.json` 中的 `url`，否则 canonical、Open Graph 与 sitemap 仍会指向 `github.io` 地址。
+`SITE_URL` 只影响构建期生成的 canonical、`og:url`、`sitemap.xml` 与 `robots.txt`；不设置时回退到 `data/site.json` 的 `url` 字段。两者保持一致即可。
 
 ## 内容维护
 

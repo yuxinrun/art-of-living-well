@@ -5,6 +5,9 @@ export function getData() {
   const site = readJson('data/site.json');
   const categories = readJson('data/categories.json');
   const nav = readJson('data/navigation.json');
+  // 绑定自定义域名时可用 SITE_URL 覆盖 canonical / sitemap / OG 的站点根地址
+  const override = (process.env.SITE_URL || '').trim();
+  if (override) site.url = override.replace(/\/+$/, '');
   return { site, categories, nav };
 }
 

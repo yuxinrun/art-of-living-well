@@ -31,11 +31,11 @@ jobs:
         run: npm ci
 
       # 默认按「仓库子路径」部署：/art-of-living-well/
-      # 若绑定了自定义域名（根路径部署），在仓库 Settings → Variables 里加变量
-      # BASE_PATH = / 即可覆盖。
+      # 自定义域名：Settings → Variables 加 BASE_PATH=/ 与 SITE_URL=https://example.com
       - name: Build static site
         env:
           BASE_PATH: ${{ vars.BASE_PATH || format('/{0}/', github.event.repository.name) }}
+          SITE_URL: ${{ vars.SITE_URL }}
         run: npm run build
 
       - name: Configure Pages
